@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap Sandbox</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <!--Navigation Bar-->
+    <nav class="navbar navbar-expand navbar-light" style="background-color: #b5e0ff;">
+        <a class="navbar-brand" href="index.html">GMDB</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="browse.html">Browse Movies</a>
+                </li>
+            </ul>
+            <form class="d-flex ms-auto">
+                <input class="form-control me-2" type="search" placeholder="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <!--Content-->
+    <!--Browse Movies-->
+    <div class="card mb-3 border-0">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/A_size_illustration2.svg/960px-A_size_illustration2.svg.png"
+                    class="img-fluid rounded-start" alt="papersize">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title">Movie Title</h5>
+                    <h6 class="card-text">Released MM, DD, YYYY</h6>
+                    <p class="card-text">Genre | Lead Actor 1, Lead Actor 2, Lead Actor 3</p>
+
+                    <p class="card-text"></p>
+                    <p class="card-text">This is a movie description.</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Comment Section-->
+<form>
+    <div class="col-4">
+      <label>Leave a Comment:</label>
+      <input type="text" class="form-control" >
+    </div>
+        <button class="btn btn-primary" type="submit">Submit Comment</button>
+  </form>
+
+
+
+
+
+</body>
+
+</html>
